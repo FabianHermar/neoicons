@@ -5,17 +5,17 @@
 @layer base {
 	@font-face {
 		font-family: GilroyRegular;
-		src: url(/Fonts/Gilroy-Regular.woff2) format("woff2");
+		src: url(/fonts/Gilroy-Regular.woff2) format("woff2");
 	}
 
   @font-face {
 		font-family: GilroySemibold;
-		src: url(/Fonts/Gilroy-SemiBold.woff2) format("woff2");
+		src: url(/fonts/Gilroy-SemiBold.woff2) format("woff2");
 	}
 
 	@font-face {
 		font-family: GilroyBold;
-		src: url(/Fonts/Gilroy-Bold.woff2) format("woff2");
+		src: url(/fonts/Gilroy-Bold.woff2) format("woff2");
 	}
 }
 
