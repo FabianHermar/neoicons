@@ -12,5 +12,5 @@
   <a href='https://neoicons.windui.org' target='_blank'>Explore Neoicons →</a>
 </div>
 <div>
-  <h1>Basic Usage ✨</h1>
+  <h1>Basic Usage 🚀</h1>
 </div>
