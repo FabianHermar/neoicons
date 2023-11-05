@@ -60,14 +60,17 @@ Tnis library is MIT licensed.
 	<summary>Why don't you have an npm package?</summary>
 	Because it is only intended for the icon to be easily copied without the need to import dependencies that are not totally necessary.
 </details>
+
 <details>
 	<summary>Do you plan to release an npm package?</summary>
 	No. We haven't plans to publish it as an npm package.
 </details>
+
 <details>
 	<summary>Which frameworks are supported?</summary>
 	It is supported in your vanilla HTML projects, as well as the frontend framework of your choice.
 </details>
+
 <details>
 	<summary>Why can't we contribute with new icon designs?</summary>
 	Because we have specific rules for designing an icon, but you can comment in the discussion section if you want a specific icon design or if you think one or more are needed.
