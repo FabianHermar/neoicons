@@ -1,38 +1,38 @@
 /* eslint-disable @next/next/no-img-element */
 export default function Footer() {
   return (
-    <footer class='text-gray-600 body-font md:px-12'>
-      <div class='container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col'>
-        <div class='flex title-font font-medium items-center md:justify-start justify-center text-gray-900'>
+    <footer className='text-gray-600 body-font md:px-12'>
+      <div className='container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col'>
+        <div className='flex title-font font-medium items-center md:justify-start justify-center text-gray-900'>
           <img
             src='/svg/neoicons_logo.svg'
             alt='Neoicons Logo'
             className='w-44'
           />
         </div>
-        <p class='text-sm font-[GilroyRegular] text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4'>
-          © 2023 Neoicons in the name of
+        <p className='text-base font-[GilroyRegular] text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4'>
+          By the creators of
           <a
             href='https://windui.org'
-            class='text-gray-600 ml-1'
+            className='text-gray-600 ml-1 font-extrabold'
             rel='noopener noreferrer'
             target='_blank'
           >
             windUI
           </a>
         </p>
-        <div class='inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start'>
+        <div className='inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start'>
           <a
             href='https://twitter.com/BoxodeHQ'
             target='_blank'
-            class='ml-3 text-gray-500'
+            className='ml-3 text-gray-500'
           >
             <svg
               fill='currentColor'
-              stroke-linecap='round'
-              stroke-linejoin='round'
-              stroke-width='2'
-              class='w-5 h-5'
+              strokeLinecap='round'
+              strokeLinejoin='round'
+              strokeWidth='2'
+              className='w-5 h-5'
               viewBox='0 0 24 24'
             >
               <path d='M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z' />
@@ -41,15 +41,15 @@ export default function Footer() {
           <a
             href='https://instagram.com/BoxodeHQ'
             target='_blank'
-            class='ml-3 text-gray-500'
+            className='ml-3 text-gray-500'
           >
             <svg
               fill='none'
               stroke='currentColor'
-              stroke-linecap='round'
-              stroke-linejoin='round'
-              stroke-width='2'
-              class='w-5 h-5'
+              strokeLinecap='round'
+              strokeLinejoin='round'
+              strokeWidth='2'
+              className='w-5 h-5'
               viewBox='0 0 24 24'
             >
               <rect width='20' height='20' x='2' y='2' rx='5' ry='5' />
@@ -59,15 +59,15 @@ export default function Footer() {
           <a
             href='https://linkedin.com/company/BoxodeHQ'
             target='_blank'
-            class='ml-3 text-gray-500'
+            className='ml-3 text-gray-500'
           >
             <svg
               fill='currentColor'
               stroke='currentColor'
-              stroke-linecap='round'
-              stroke-linejoin='round'
-              stroke-width='0'
-              class='w-5 h-5'
+              strokeLinecap='round'
+              strokeLinejoin='round'
+              strokeWidth='0'
+              className='w-5 h-5'
               viewBox='0 0 24 24'
             >
               <path
