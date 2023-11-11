@@ -7,7 +7,7 @@ export default function Footer() {
           <img
             src='/svg/neoicons_logo.svg'
             alt='Neoicons Logo'
-            className='w-44'
+            className='w-44 select-none'
           />
         </div>
         <p className='text-base font-[GilroyRegular] text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4'>
