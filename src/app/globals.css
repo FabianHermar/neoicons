@@ -1,28 +1,24 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-@layer base {
-	@font-face {
-		font-family: GilroyRegular;
-		src: url(/fonts/Gilroy-Regular.woff2) format("woff2");
-	}
-
-  @font-face {
-		font-family: GilroySemibold;
-		src: url(/fonts/Gilroy-SemiBold.woff2) format("woff2");
-	}
-
-	@font-face {
-		font-family: GilroyBold;
-		src: url(/fonts/Gilroy-Bold.woff2) format("woff2");
-	}
+@font-face {
+  font-family: GilroySemibold;
+  src: url(/fonts/Gilroy-SemiBold.woff2) format("woff2");
+  font-display: swap;
+  font-style: normal;
 }
 
-.principal-title {
-  text-wrap: balance;
+@font-face {
+  font-family: GilroyBold;
+  src: url(/fonts/Gilroy-Bold.woff2) format("woff2");
+  font-display: swap;
+  font-style: normal;
 }
 
+@theme {
+  --font-heading: 'GilroyBold', sans-serif;
+  --font-display: 'GilroySemibold', sans-serif;
+  --font-accent: 'Albert Sans Variable', sans-serif;
+}
 ::selection {
   background-color: #8b5cf6;
   color: #fff;
